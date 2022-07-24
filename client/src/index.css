@@ -1,0 +1,47 @@
+@import '~materialize-css/dist/css/materialize.min.css';
+
+.input-field label {
+    color: white;
+}
+
+.input-field input[type=email] {
+    border-bottom: 1px solid white;
+}
+
+input[type=email]:not(.browser-default) {
+    color: #ffeb3b;
+}
+
+input[type=email]:not(.browser-default):focus:not([readonly]) + label {
+    color: #ffeb3b;
+}
+
+input[type=email]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid #ffeb3b;
+}
+
+.input-field input[type=password] {
+    border-bottom: 1px solid white;
+}
+
+input[type=password]:not(.browser-default) {
+    color: #ffeb3b;
+}
+
+input[type=password]:not(.browser-default):focus:not([readonly]) + label {
+    color: #ffeb3b;
+}
+
+input[type=password]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid #ffeb3b;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px
+}
+
+.card-title {
+    font-weight: bold !important;
+}
