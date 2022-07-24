@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab980eed-f3c8-4d80-b817-1024faf968e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/LinkCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/LinksList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/context/AuthContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/hooks/auth.hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/hooks/http.hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/hooks/message.hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/AuthPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/CreatePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/DetailsPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/LinksPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/auth_middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/.dbshell" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/.mongorc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/WiredTiger" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/WiredTiger.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/WiredTiger.turtle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/WiredTiger.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/WiredTigerHS.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/_mdb_catalog.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/collection-0--3937456328559185711.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/collection-0--6070990247729753323.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/collection-0-104313158896821300.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/collection-2--6070990247729753323.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/collection-4--6070990247729753323.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/collection-6--6070990247729753323.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/diagnostic.data/metrics.2022-06-25T16-39-51Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/diagnostic.data/metrics.2022-06-25T16-40-05Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/diagnostic.data/metrics.2022-06-25T16-55-04Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/diagnostic.data/metrics.2022-06-26T10-58-34Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/diagnostic.data/metrics.2022-06-26T11-04-34Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/diagnostic.data/metrics.2022-06-26T11-11-54Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/diagnostic.data/metrics.2022-06-26T11-12-11Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/diagnostic.data/metrics.2022-06-26T11-31-28Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/diagnostic.data/metrics.2022-06-30T22-50-47Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/diagnostic.data/metrics.2022-07-05T13-15-37Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/diagnostic.data/metrics.2022-07-12T17-16-37Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/diagnostic.data/metrics.2022-07-15T01-27-51Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/diagnostic.data/metrics.2022-07-15T21-50-09Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/diagnostic.data/metrics.2022-07-16T10-06-33Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/diagnostic.data/metrics.2022-07-17T09-17-56Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/diagnostic.data/metrics.2022-07-18T06-58-35Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/diagnostic.data/metrics.2022-07-22T04-04-39Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/diagnostic.data/metrics.2022-07-24T00-53-51Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/index-1--3937456328559185711.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/index-1--6070990247729753323.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/index-1-104313158896821300.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/index-2--3937456328559185711.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/index-2-104313158896821300.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/index-3--6070990247729753323.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/index-3-104313158896821300.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/index-5--6070990247729753323.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/index-7--6070990247729753323.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/index-8--6070990247729753323.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/index-9--6070990247729753323.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/journal/WiredTigerLog.0000000013" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/journal/WiredTigerPreplog.0000000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/journal/WiredTigerPreplog.0000000002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/mongod.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/sizeStorer.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/db/storage.bson" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/docker-entrypoint-initdb.d/mongo-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/auth_routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/link_routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/redirect_routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2COYyoRNy2PEAIOz1todIjlkJQf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab980eed-f3c8-4d80-b817-1024faf968e5" name="Changes" comment="" />
+      <created>1658675358040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658675358040</updated>
+      <workItem from="1658675360630" duration="40000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
